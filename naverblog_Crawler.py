@@ -81,4 +81,4 @@ df = pd.DataFrame(data, columns=["header", "contents", "date"])
 keyword = keyword.replace(" ", "_")
 title = keyword+ "_" + str(pages) + "_" + "네이버블로그_크롤링.csv"
 
-df.to_csv('naver.blog.csv',encoding='utf-8-sig')
+df.to_csv('./data/naver.blog.csv',encoding='utf-8-sig')
