@@ -5,11 +5,14 @@ jupyter notebook(`.ipynb`)에서 실행 결과를 확인할 수 있습니다.
 
 웹 크롤링에 대한 가이드 자료는 [웹 크롤링 가이드](./slides/crawling_guide.pdf)에서 확인할 수 있습니다.
 
-## Usage
+## Requirements
+- selenium
+- beautifulsoup4
+- requests
 
-```bash
-$ pip install selenium
-```
+selenium library를 사용하기 위한 현재 사용중인 브라우저 버전에 맞는 web driver 다운 필요(가이드 19페이지 참조)
+- [Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+- [Chrome WebDriver](https://chromedriver.chromium.org/downloads)
 
 
 -------------------
