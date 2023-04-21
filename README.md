@@ -1,4 +1,4 @@
-# Crawler
+# Web_Crawler
 naver news, naver blog, daum news, youtube crawler 입니다.
 
 jupyter notebook(`.ipynb`)에서 실행 결과를 확인할 수 있습니다.
