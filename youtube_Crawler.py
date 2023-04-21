@@ -84,6 +84,6 @@ pd_data = {"아이디" : id_final , "댓글 내용" : comment_final}
 youtube_pd = pd.DataFrame(pd_data)
 # convert_csv_from_dataframe('title',youtube_pd)
 # youtube_pd.to_excel('youtube.xlsx',encoding = 'cp949')
-youtube_pd.to_csv(f"youtube_pd_title_5.csv", encoding='utf-8-sig')
+youtube_pd.to_csv(f"./data/youtube_pd_title_5.csv", encoding='utf-8-sig')
 driver.close()
 # 104개 중에서 104개 모두 읽힘 
