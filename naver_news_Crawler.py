@@ -128,4 +128,4 @@ news_df = pd.DataFrame({'title': titles, 'link': naver_urls, 'content': contents
 
 news_df
 
-news_df.to_csv('NaverNews_%s.csv' % search, index=False, encoding='utf-8-sig')
+news_df.to_csv('./data/NaverNews_%s.csv' % search, index=False, encoding='utf-8-sig')
