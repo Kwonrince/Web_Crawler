@@ -15,10 +15,6 @@ soup = BeautifulSoup(res.content, 'html.parser')
 
 items = soup.select('div strong a')
 
-
-
-
-
 title=[]
 url = []
 
@@ -32,4 +28,4 @@ list_sum = list(zip(title,url))
 col = ['title','url']
 
 df = pd.DataFrame(list_sum, columns=col)
-df.to_csv('daum_new.xlsx', sheet_name='뉴스 기사 제목')
+df.to_csv('./data/daum_new.xlsx', sheet_name='뉴스 기사 제목')
