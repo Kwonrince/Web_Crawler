@@ -7,13 +7,9 @@ Created on Mon May  2 15:47:35 2022
 
 from selenium import webdriver
 import time
-from openpyxl import Workbook
 import pandas as pd
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
-
-wb = Workbook(write_only=True)
-ws = wb.create_sheet()
 
 driver = webdriver.Chrome('chromedriver.exe')
 driver.get("https://www.youtube.com/watch?v=_MYR9Dp8Eys")
